@@ -12,14 +12,14 @@ A [BOSH](http://bosh.io/) release for [Kubernetes](http://kubernetes.io).  Forme
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-## <a name='UsagePaasta'></a>Usage for PaaS-TA Container Service
+## <a name='UsageKPaaS'></a>Usage for K-PaaS Container Service
 
-For applying release to PaaS-TA Container Service, please create release by apply the version and syncronize with that service configuration.
-This is a customized kubo-release version for PaaS-TA Container Service Project based on kubo-release(ver 0.34.0).
+For applying release to K-PaaS Container Service, please create release by apply the version and syncronize with that service configuration.
+This is a customized kubo-release version for K-PaaS Container Service Project based on kubo-release(ver 0.34.0).
 
 `bosh create-release --force --tarball ./releases/kubo-release-0.34.1.tgz --name kubo --version 0.34.1`
 
-### List of files changed in this version(for PaaS-TA Container Service).
+### List of files changed in this version(for K-PaaS Container Service).
 
 ##### 1. Added files for specific jobs as route settup, agent install and etc.
 - jobs/kube-apiserver/templates/bin/pre-start.erb
